@@ -7,7 +7,7 @@
 
 ## 效果图
 ![](./someImg/textbanner.gif)
-
+git
 [Download Apk](https://github.com/zsml2016/TextBannerView/releases/download/1.0.2/demo-1.0.2.apk)
 
 
