@@ -1,8 +1,17 @@
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+//apply plugin: 'com.android.library'
 android {
     namespace = "com.andy.textbanner"
     compileSdkVersion 36
-
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
     lintOptions {
         abortOnError = false
     }
@@ -26,6 +35,19 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.7.1'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.andy.textbanner' //groupId 随便取
+                artifactId = 'andy'  //artifactId 随便取
+                version = '1.0.0'
+            }
+        }
+    }
 }
 
 
