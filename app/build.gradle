@@ -5,7 +5,7 @@ plugins {
 
 //apply plugin: 'com.android.library'
 android {
-    namespace = "com.andy.textbanner"
+    namespace = "com.andy.widget"
     compileSdkVersion 36
     publishing {
         singleVariant('release') {

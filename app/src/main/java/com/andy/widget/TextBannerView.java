@@ -19,7 +19,7 @@ import android.widget.ViewFlipper;
 
 import androidx.annotation.AnimRes;
 
-import com.andy.textbanner.utils.DisplayUtils;
+import com.andy.widget.utils.DisplayUtils;
 
 import java.util.List;
 
