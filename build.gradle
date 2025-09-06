@@ -4,7 +4,11 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-
+        mavenLocal()
+        maven { url = 'https://maven.google.com' }
+        maven { url = 'https://jcenter.bintray.com' }
+        maven { url = 'https://jitpack.io'}
+        maven { url = 'https://repo1.maven.org/maven2/' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.13.0'
