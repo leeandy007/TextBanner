@@ -1,4 +1,4 @@
-package com.andy.textbanner;
+package com.andy.widget;
 
 /**
  *

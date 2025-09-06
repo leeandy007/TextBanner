@@ -1,4 +1,4 @@
-package com.andy.textbanner;
+package com.andy.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
