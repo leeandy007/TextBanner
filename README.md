@@ -42,7 +42,7 @@ git
 Gradle 
 ```groovy
 dependencies{
-    compile 'andytbannerview:1.0.5'  //最新版本
+    implementation 'textbanner:v1.0.3'  //最新版本
 }
 ```
 或者引用本地lib
@@ -167,7 +167,6 @@ protected void onStop() {
 
 
 
-## 更多开源库请关注：[GitHub](https://github.com/ChessLuo)
 
 
 
